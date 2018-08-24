@@ -56,6 +56,8 @@
 		416577F1213006B60053AA59 /* Calanques */ = {
 			isa = PBXGroup;
 			children = (
+				41657808213008540053AA59 /* Model */,
+				416578072130084F0053AA59 /* View */,
 				41657806213007990053AA59 /* Controller */,
 				416577F2213006B60053AA59 /* AppDelegate.swift */,
 				416577F8213006B60053AA59 /* Main.storyboard */,
@@ -73,6 +75,20 @@
 				416577F6213006B60053AA59 /* SecondViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		416578072130084F0053AA59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41657808213008540053AA59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YCEFR8A5L8;
 				INFOPLIST_FILE = Calanques/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,7 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YCEFR8A5L8;
 				INFOPLIST_FILE = Calanques/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
