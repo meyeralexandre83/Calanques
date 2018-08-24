@@ -56,15 +56,23 @@
 		416577F1213006B60053AA59 /* Calanques */ = {
 			isa = PBXGroup;
 			children = (
+				41657806213007990053AA59 /* Controller */,
 				416577F2213006B60053AA59 /* AppDelegate.swift */,
-				416577F4213006B60053AA59 /* FirstViewController.swift */,
-				416577F6213006B60053AA59 /* SecondViewController.swift */,
 				416577F8213006B60053AA59 /* Main.storyboard */,
 				416577FB213006B70053AA59 /* Assets.xcassets */,
 				416577FD213006B70053AA59 /* LaunchScreen.storyboard */,
 				41657800213006B70053AA59 /* Info.plist */,
 			);
 			path = Calanques;
+			sourceTree = "<group>";
+		};
+		41657806213007990053AA59 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				416577F4213006B60053AA59 /* FirstViewController.swift */,
+				416577F6213006B60053AA59 /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
